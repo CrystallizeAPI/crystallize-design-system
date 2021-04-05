@@ -1,6 +1,6 @@
 {
-  "name": "@crystallize/componentlib",
-  "version": "1.0.0",
+  "name": "crystallize-componentlib",
+  "version": "1.0.1",
   "description": "Design System and component library for Crystallize PIM",
   "private": false,
   "main": "dist/index.js",
