@@ -1,13 +1,13 @@
 {
   "name": "crystallize-componentlib",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Design System and component library for Crystallize PIM",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "prepublish": "tsc",
-    "deploy": "npm publish --access public",
+    "deploy": "tsc && npm publish --access public",
     "test": "jest --config jest.config.ts",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"

@@ -8,3 +8,4 @@ jest.config.ts
 .idea/
 .github/
 .storybook/
+dist/stories
