@@ -1,0 +1,10 @@
+coverage/
+src/
+storybook-static/
+node_modules/
+tsconfig.json
+babel.config.js
+jest.config.ts
+.idea/
+.github/
+.storybook/
