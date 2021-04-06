@@ -1,2 +1,6 @@
-export * from './components/Title'
-export * from './components/Button'
+import * as styles from "./shared/styles";
+import * as global from "./shared/global";
+
+export { styles, global };
+export * from "./components/Title";
+export * from "./components/Button";

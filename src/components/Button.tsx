@@ -1,5 +1,6 @@
 import React from "react";
 import styled, { css } from "styled-components";
+import { color, typography } from "../shared/styles";
 
 export interface ButtonProps {
   /**
@@ -50,19 +51,19 @@ const StyledButton = styled.button<ButtonProps>`
   ${(props) =>
     props.size === "small" &&
     css`
-      font-size: 12px;
+      font-size: ${typography.size.s1};
       padding: 10px 16px;
     `}
   ${(props) =>
     props.size === "medium" &&
     css`
-      font-size: 14px;
+      font-size: ${typography.size.s2};
       padding: 11px 20px;
     `}
   ${(props) =>
     props.size === "large" &&
     css`
-      font-size: 16px;
+      font-size: ${typography.size.s2};
       padding: 12px 24px;
     `}
 `;
