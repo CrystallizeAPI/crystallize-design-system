@@ -9,3 +9,4 @@ jest.config.ts
 .github/
 .storybook/
 dist/stories
+build-storybook.log
