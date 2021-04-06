@@ -37,7 +37,7 @@ const StyledButton = styled.button<ButtonProps>`
     props.primary &&
     css`
       color: white;
-      background-color: #1ea7fd;
+      background-color: rgb(143, 222, 203);
     `}
   ${(props) =>
     !props.primary &&
